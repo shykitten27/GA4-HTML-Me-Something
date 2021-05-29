@@ -2,8 +2,10 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
-html, body, div, span, applet, object, iframe,
+/* Elements */
+/* IDs */
+/* Classes */
+/*html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -15,9 +17,13 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 50;
-	padding: 0;
+time, mark, audio, video */
+body{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+	padding: 70;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -29,10 +35,14 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    background-color: rgb(43, 114, 81);
+    	line-height: 1;
+        /* Google fonts */
+        font-size: 14pt;
+        color: #333
 }
 ol, ul {
-	list-style: none;
+	list-style: inside;
 }
 blockquote, q {
 	quotes: none;
