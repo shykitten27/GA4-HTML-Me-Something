@@ -3,8 +3,52 @@
    License: none (public domain)
 */
 /* Elements */
+header {
+	background-color:rgb(155, 165, 160);
+	color: #333;
+	height: auto;
+	padding: 20px;
+	margin: 0px;
+}
+
+body{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+	padding: 70;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	background-color: rgb(43, 114, 81);
+	line-height: 1;
+	/* Google fonts */
+	font-size: 14pt;
+	color: #333	
+}
+footer {
+	background-color:rgb(155, 165, 160);
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	height: auto;
+	padding: 20px;
+	margin: 0px;
+}
+
 /* IDs */
+#author {
+	font-size: large;
+	color: rgb(55, 11, 97);
+}
+
 /* Classes */
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
 /*html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -18,32 +62,17 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video */
-body{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-	padding: 70;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-    background-color: rgb(43, 114, 81);
-    	line-height: 1;
-        /* Google fonts */
-        font-size: 14pt;
-        color: #333
-}
+
 ol, ul {
 	list-style: inside;
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -52,6 +81,7 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
